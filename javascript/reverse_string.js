@@ -1,6 +1,20 @@
+
+
+
+
+
+
+
+// create a function that takes an string input as argument
+
 function reverseString(str) {
-  // type your code here
+    let o = '';
+    for (let i = str.length - 1; i >= 0; i--)
+      o += str[i];
+    return o;
 }
+console.log(reverseString("ted"))
+
 
 if (require.main === module) {
   // add your own tests in here
@@ -17,3 +31,6 @@ module.exports = reverseString;
 
 // Please add your pseudocode to this file
 // And a written explanation of your solution
+
+
+
